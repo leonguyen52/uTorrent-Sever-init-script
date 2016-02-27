@@ -8,6 +8,8 @@ Installation
 wget --no-check-certificate -O /etc/init.d/utserver https://raw.githubusercontent.com/Artyum1/uTorrent-Sever-init-script/master/utserver-init-script.sh
  
 chmod +x /etc/init.d/utserver
+
+**Don't forget to change lines 25 & 26.**
  
 How to use
 --
