@@ -1,2 +1,18 @@
 # uTorrent-Sever-init-script
-Init script to start/stop/restart utserver
+A simple init script to start/stop/restart utserver.
+ 
+Based on [this script](https://gist.github.com/vortex-5/1221418)
+ 
+Installation
+--
+wget --no-check-certificate -O /etc/init.d/utserver https://raw.githubusercontent.com/Artyum1/uTorrent-Sever-init-script/master/utserver-init-script.sh
+ 
+chmod +x /etc/init.d/utserver
+ 
+How to use
+--
+service utserver start|stop|status|restart|force-reload|log
+ 
+To make it start at boot
+--
+update-rc.d utserver defaults
