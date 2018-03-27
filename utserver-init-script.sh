@@ -27,7 +27,7 @@ LOGFILE=/opt/utorrent/utserver.log #must be a writable directory
 USER=$(whoami)
 GROUP=users
 NICE=15
-SCRIPTNAME=/etc/init.d/utserver #must match this file name
+SCRIPTNAME=/opt/utorrent/utserver #must match this file name
 
 DESC="uTorrent Server for Linux"
 CHDIR=$UTORRENT_PATH
