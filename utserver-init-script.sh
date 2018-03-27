@@ -22,8 +22,8 @@
 # version 2 improvments by:
 # @author FanFan Huang (kaboom05+utorrentscript@gmail.com)
 #
-UTORRENT_PATH=/opt/utorrent-server-alpha-v3_3/ #where you extracted your utserver executable
-LOGFILE=/opt/utorrent-server-alpha-v3_3/utserver.log #must be a writable directory
+UTORRENT_PATH=/opt/utorrent/ #where you extracted your utserver executable
+LOGFILE=/opt/utorrent/utserver.log #must be a writable directory
 USER=$(whoami)
 GROUP=users
 NICE=15
