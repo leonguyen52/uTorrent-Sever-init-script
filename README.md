@@ -5,8 +5,7 @@ Based on [this script](https://gist.github.com/vortex-5/1221418)
  
 Installation
 --
-wget --no-check-certificate -O /etc/init.d/utserver https://raw.githubusercontent.com/Artyum1/uTorrent-Sever-init-script/master/utserver-init-script.sh
- 
+wget --no-check-certificate -O /etc/init.d/utserver https://raw.githubusercontent.com/leonguyen52/uTorrent-Sever-init-script/master/utserver-init-script.sh
 chmod +x /etc/init.d/utserver
 
 **Don't forget to change lines 25 & 26.**
